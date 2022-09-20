@@ -12,8 +12,9 @@ STEPS:
   2. after installing we need to start the server of my sql and apache
   ![Screenshot (383)](https://user-images.githubusercontent.com/70309665/191290713-e86ecf4f-4f4a-46d5-baed-a20bb66a57d4.png)
   3. After starting we need to create a sql server
-  4. Add 4 rows to store the user's registered data
-   	Full_Name	varchar(100)	
+  4. We need to create a php file to establish the connection between frontend and mysql database 
+  5. Add 4 rows to store the user's registered data
+   	     Full_Name	varchar(100)	
 		Username Index	varchar(100)	
 		email PrimaryIndex varchar(100) (primary and unique since email can't be same)
 		Password	varchar(100)
